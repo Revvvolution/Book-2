@@ -1,0 +1,19 @@
+body {
+    background: linear-gradient(to left, #020024, 15%, #090979, 22%, #00D4FF, 35%, #FFDD3C, #FFEA61, 65%, #00D4FF, 78%, #090979, 85%, #020024);
+}
+
+dl {
+    list-style-type: none;
+}
+
+dd::before {
+    content: "- ";
+}
+
+.candidate {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}

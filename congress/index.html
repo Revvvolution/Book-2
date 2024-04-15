@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.css" />
+    <title>Congress</title>
+</head>
+<body>
+    <main>
+        <!-- Parent candidate list component-->
+        <article class="candidate">
+
+            <!-- Child candidate component for Title-->
+            <section class="candidate__title">
+                <h1>West Virginia's 1st Congressional District</h1>
+            </section>
+            
+            <!-- Child candidate full basic info list component / parent of the following div elements below-->
+            <section class="candidate__basicInfo">
+                <!-- Creating div elements for each item to be displayed within parent component-->
+                <div class="candidate__image">
+                    <img src="wvcongress-img\cmiller.jpeg" alt="Carol Miller">
+                </div>
+                <div class="candidate__name">
+                    Carol Miller
+                </div>
+                <div class="candidate__district">
+                    Representative for West Virginia's 1st congressional district
+                    <br>
+                    Since Jan 3, 2023 (next election in 2024)
+                </div>
+                <div class="candidate__politicalAffiliation">
+                    Republican
+                </div>
+                    <!-- Sub-component of candidate__basicInfo-->
+                    <section class="candidate__committees">
+                        <dl>
+                            <dt>Committees</dt>
+                            <dd>House Committee on Ways and Means</dd>
+                            <dd>Trade (Subcommittee Assignment)</dd>
+                            <dd>Health (Subcommittee Assignment)</dd>
+                        </dl>
+
+                    </section>
+
+            </section>
+
+            <!--Child candidate list component for legislation links-->
+            <section class="candidate__legislation">
+                <dl>
+                    <dt>Enacted Legislation (2 bills total)</dt>
+                    <dd><a href="https://www.govtrack.us/congress/bills/116/hr3362">H.R. 3362 (116th): Small Airport Mothers’ Rooms Act of 2019</a></dd>
+                    <dd><a href="https://www.govtrack.us/congress/bills/116/hr4610"> 4610 (116th): New River Gorge National Park and Preserve Designation Act</a></dd>
+                </dl>
+
+            </section>
+
+        </article>
+    </main>
+</body>
+</html>
