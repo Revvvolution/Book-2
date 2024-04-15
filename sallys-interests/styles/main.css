@@ -1,0 +1,15 @@
+.bio__interests {
+    display: flex;  /* Display the child items in a Flex layout */
+    flex-wrap: wrap;  /* Let the rows wrap if there are too many */
+    justify-content: space-evenly; /* Evenly space the child elements */
+}
+
+
+.interest {
+    flex-basis: 16%;  /* Make each child element the same width */
+    border: 1px dotted crimson;
+    padding: 1em;
+    margin: 0.5em;
+    text-align: center; /* Center align the text in the boxes */
+}
+

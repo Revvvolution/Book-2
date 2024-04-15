@@ -1,0 +1,26 @@
+.main__title {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.h1 {
+    border: 1px transparent;
+    padding-bottom: 1em;
+
+}
+
+.main__coffeeHouseNames {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.coffeeHouseName {
+    font-size: 1.3em;
+    flex-basis: 30%;
+    border: 1px dotted #000000;
+    padding: 0.1em;
+    text-align: left;
+}
+
