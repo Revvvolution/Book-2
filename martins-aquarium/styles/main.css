@@ -64,17 +64,13 @@ background-position: center;
 
 }
 
-.fishTop {
+.fishRow {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
 }
 
-.fishBottom {
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-}
+
 
 
 .topContent__rightContainer {
@@ -148,6 +144,7 @@ background-position: center;
     flex-wrap: wrap;
     height: 75px;
     overflow-x: scroll;
+    scrollbar-width: 100%;
     scrollbar-color: darkblue deepskyblue;
     padding-bottom: 3px;
     -moz-column-count: 4;
