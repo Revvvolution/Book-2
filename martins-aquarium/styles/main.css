@@ -12,6 +12,7 @@ background-position: center;
 #pageTitle {
     position: relative;
     text-align: center;
+    text-shadow: 2px 2px #9EFBD3;
 }
 
 .topContent {
@@ -35,7 +36,7 @@ background-position: center;
     flex-direction: inherit;
     justify-content: flex-start;
     flex-wrap: wrap;
-    width: 75%;
+    width: 77%;
     height: 37%;
     border: 1px solid deepskyblue;
     background: #9EFBD3;
@@ -57,6 +58,7 @@ background-position: center;
     padding-left: 0;
     width: 120px;
     height: 100px;
+    overflow-y: hidden;
     font-size: 0.7em;
     text-align: left;
 
@@ -64,16 +66,129 @@ background-position: center;
 
 .fishTop {
     display: flex;
+    justify-content: space-evenly;
     width: 100%;
 }
 
 .fishBottom {
     display: flex;
+    justify-content: space-evenly;
     width: 100%;
 }
 
 
+.topContent__rightContainer {
+    display: flex;
+    flex-direction: inherit;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    margin-left: 0.7em;;
+    width: 21%;
+    height: 37%;
+    border: 1px solid deepskyblue;
+    background: #9EFBD3;
+    background: linear-gradient(to right, #9EFBD3, #57E9F2, #45D4FB);
+}
 
-/* Set a fixed height and enable scrolling on the y-axis */
- /* height: 200px; /* Adjust the height as needed */
-  /*overflow-y: scroll;*/
+#topContent__rightContainer--title {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    order: -1;
+    width: 100%;
+    height: 35px;
+    border-bottom: 3px solid deepskyblue;
+}
+
+.guidelines {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 245px;
+}
+
+.guidelines__list {
+    padding-left: 1.2em;
+    height: fit-content;
+    overflow-y: scroll;
+    scrollbar-color: darkblue deepskyblue;
+    border-bottom: 3px solid deepskyblue;
+    padding-bottom: 3px;
+}
+
+/* ---------- BOTTOM CONTENT ---------- */
+
+.bottomContent__upper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    height: 120px;
+    margin-top: 0.7em;
+    margin-left: 20em;
+    margin-right: 20em;;
+    background: linear-gradient(to left, #9EFBD3, #57E9F2, #45D4FB);
+    border: 1px solid deepskyblue;
+}
+
+#bottomContent__upper--title {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    order: -1;
+    width: 100%;
+    height: 35px;
+    border-bottom: 3px solid deepskyblue;
+}
+
+.tips__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-wrap: wrap;
+    flex-wrap: wrap;
+    height: 75px;
+    overflow-x: scroll;
+    scrollbar-color: darkblue deepskyblue;
+    padding-bottom: 3px;
+    -moz-column-count: 4;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 4;
+    -webkit-column-gap: 20px;
+    column-count: 4;
+    column-gap: 20px;
+}
+
+
+/* ---------- Bottom Block ---------- */
+.bottomContent__lower {
+    display: flex;
+    flex-wrap: wrap;
+    width: 96.75%;
+    height: 215px;
+    margin-top: 1.5em;
+    margin-left: 1em;
+    background: linear-gradient(to right, #9EFBD3, #57E9F2, #45D4FB);
+    border: 1px solid deepskyblue;
+}
+
+#bottomContent__lower--title {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    order: -1;
+    width: 100%;
+    height: 35px;
+    border-bottom: 3px solid deepskyblue;
+}
+
+.places {
+    display: flex;
+}
+.places__list {
+    -moz-column-count: 3;
+    -moz-column-gap: 30px;
+    -webkit-column-count: 3;
+    -webkit-column-gap: 30px;
+    column-count: 3;
+    column-gap: 30px
+}
